@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>joot joot joot joot joot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Inter', sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .wrapper {
+      text-align: center;
+      animation: fadeIn 1.2s ease forwards;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 600;
+      letter-spacing: -2px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: slideUp 1s ease forwards;
+    }
+
+    .links {
+      margin-top: 25px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      opacity: 0;
+      animation: fadeIn 1.5s ease forwards;
+      animation-delay: .5s;
+    }
+
+    a {
+      text-decoration: none;
+      color: #aaa;
+      font-size: 0.95rem;
+      position: relative;
+      transition: color .3s ease;
+    }
+
+    a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0;
+      height: 1px;
+      background: #fff;
+      transition: width .3s ease;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    a:hover::after {
+      width: 100%;
+    }
+
+    .bg-glow {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+      animation: float 8s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-40px); }
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <div class="wrapper">
+    <h1>joot joot joot joot joot</h1>
+    <div class="links">
+      <a href="https://instagram.com/jojootjojoot" target="_blank">Instagram</a>
+      <a href="https://t.me/jojootjojoot" target="_blank">Telegram</a>
+    </div>
+  </div>
+</body>
+</html>
