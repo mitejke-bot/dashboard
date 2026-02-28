@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+<name>vt_simple</name>
+<creationDate>2011/01/01</creationDate>
+<author>VTEM.NET</author>
+<authorEmail>tuyen0110@gmail.com</authorEmail>
+<authorUrl>http://www.vtem.net</authorUrl>
+<copyright>© copyright 2011 VTEM</copyright>
+<license>GNU/GPL</license>
+<version>1.2</version>
+<description>TPL_VTEM_DESCRIPTION</description>
+<files>
+	<filename>component.php</filename>
+	<filename>favicon.ico</filename>
+	<filename>template_thumbnail.png</filename>
+	<filename>index.php</filename>
+	<filename>error.php</filename>
+	<folder>css/</folder>
+	<folder>js/</folder>
+	<folder>html/</folder> 
+	<folder>images/</folder> 
+	<folder>vtemtools/</folder>
+	<folder>language/</folder>
+</files>
+<positions>
+	<position>drawer</position>
+	<position>top</position>
+	<position>header</position>
+	<position>showcase</position>
+	<position>slider</position>
+	<position>feature</position>
+	<position>left</position>
+	<position>inset</position>
+	<position>right</position>
+	<position>bottom</position>
+	<position>footer</position>
+	<position>banner</position>
+	<position>search</position>
+	<position>language</position>
+	<position>utility</position>
+	<position>navigation</position>
+	<position>outline</position>
+	<position>extra</position>
+	<position>brand</position>
+	<position>user</position>
+	<position>info</position>
+	<position>debug</position>
+</positions>
+<languages folder="language">
+	<language tag="en-GB">en-GB/en-GB.tpl_vt_simple.ini</language>
+</languages>
+	<config>
+		<fields name="params">
+			<!-- //////// BEGIN BASIC //////////////////////////// -->
+			<fieldset name="basic" addfieldpath="/templates/vt_simple/vtemtools/widgets/fields">
+				<field name="TemplateStyle" type="list" default="style1" label="Template Style" description="The Main Color Variation for the Template" class="vt-chosen-select">
+					<option value="style1">Style 1</option>
+					<!--<option value="style2">Style 2</option>
+					<option value="style3">Style 3</option>
+					<option value="style4">Style 4</option>-->
+				</field>
+				<field name="GoogleAnalytics" type="radio" default="0" class="btn-group btn-group-yesno" label="Google Analytics" description="">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="gacode" type="text" default="" label="Google Analytics Code" description="Enter your Google tracking code in the UA Code field. It should look something like: UA-15655555-1" />
+				<field name="webfont" type="radio" default="0" class="btn-group btn-group-yesno" label="Google Font Directory" description="Font type allow you to use 3rd party Font type from providers such as Google.">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="googlefont" type="text" default="Open+Sans" label="Google Font Name" description="This setting allows you to set a special font for your elements." />
+				<field name="googlefontelements" type="text" default="h3,#vtem_menu" label="Google Font for elements	
+				" description="Load a Google font for your elements (H1, H2, H3, etc.)" size="35" />
+				<!--<field name="Data" type="spacer" />-->
+			</fieldset>
+			<!-- //////// END BASIC //////////////////////////// -->
+			<!-- //////// BEGIN LAYOUT //////////////////////////// -->
+			<fieldset name="layout" label="Layout builder">	
+				<field name="layoutscript" type="gridscript" default='{"children":[{"id":"14ed8c135599807","type":"section","children":[{"blockid":"14ed8c14d203691","title":"Logo","type":"system","widget":"widget-logo","content":{},"attributes":{"tagid":"","class":"col-sm-6 col-xs-6","animation":"","hidden-on":null,"grid":"col-md-3","extend":""},"options":{"logotype":"1","logourl":"templates/vt_simple/css/styles/logo.png"}},{"blockid":"14e52c68f0e7306","title":"Menu","type":"system","widget":"widget-menu","content":[],"attributes":{"tagid":"","class":"vtem-menu col-sm-6 col-xs-6","animation":"","grid":"col-md-9","extend":"","hidden-on":null},"options":{"menuname":"mainmenu","trigger":"hover","transition":"fade","startLevel":"0","endLevel":"10","subMenuWidth":"220","mobilecanvas":"1","orientation":"1"}},{"blockid":"14ed8c1bbb86273","title":"Module Position","type":"system","widget":"widget-module","content":{},"attributes":{"tagid":"","class":"image-slider","animation":"","hidden-on":null,"grid":"col-md-12","extend":""},"options":{"module-positions":"slider","module-style":"no"}}],"attributes":{"tagid":"","class":"bg-violet-blue section-header","full-width":"0","extend":"","headline":"","desc":""}},{"id":"14ed8c353a72853","type":"section","children":[{"blockid":"14ed8c368333212","title":"Module Position","type":"system","widget":"widget-module","content":{},"attributes":{"tagid":"","class":"text-center blok-feature","animation":"","hidden-on":null,"grid":"col-md-12","extend":""},"options":{"module-positions":"showcase","module-style":"no"}}],"attributes":{"tagid":"","class":"","full-width":"0","extend":"","headline":"","desc":""}},{"id":"14ede72ada31596","type":"section","children":[{"blockid":"14ede72b3ea8705","title":"Module Position","type":"system","widget":"widget-module","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-12","extend":""},"options":{"module-positions":"top","module-style":"no"}}],"attributes":{"tagid":"","class":"bg-gray","full-width":"0","extend":"","headline":"","desc":"","background":"rgba(0, 0, 0, 0.02)","color":"#FFFFFF"}},{"id":"14ed8c2283880","type":"section","children":[{"blockid":"14ee3751a5c958","title":"Module Position","type":"system","widget":"widget-module","content":{},"attributes":{"tagid":"","class":"text-center","animation":"","hidden-on":null,"grid":"col-md-12","extend":""},"options":{"module-positions":"drawer","module-style":"no"}},{"blockid":"14ed8c2e71e8137","title":"System Messages","type":"system","widget":"widget-messages","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-12","extend":""},"options":{}},{"blockid":"14ed8c26a303459","title":"Component","type":"system","widget":"widget-component","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-9","extend":"","background":"rgba(255, 255, 255, 0)","color":"#333333"},"options":{"showcomonhome":"0"}},{"blockid":"14ed8c2902a4969","title":"Module Position","type":"system","widget":"widget-module","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-3","extend":""},"options":{"module-positions":"right","module-style":"panel"}}],"attributes":{"tagid":"","class":"","full-width":"0","extend":"","headline":"","desc":""}},{"id":"14ed8c6127d7896","type":"section","children":[{"blockid":"14ede24ce889356","title":"Module Position","type":"system","widget":"widget-module","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-4","extend":"","background":"rgba(0, 0, 0, 0)","color":"rgba(255, 255, 255, 0.65)"},"options":{"module-positions":"utility","module-style":"basic"}},{"blockid":"14ede244b991598","title":"Module Position","type":"system","widget":"widget-module","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-4","extend":"","background":"rgba(0, 0, 0, 0)","color":"rgba(255, 255, 255, 0.65)"},"options":{"module-positions":"bottom","module-style":"basic"}},{"blockid":"14ed8c61b6d3770","title":"Module Position","type":"system","widget":"widget-module","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-4","extend":"","background":"rgba(0, 0, 0, 0)","color":"rgba(255, 255, 255, 0.65)"},"options":{"module-positions":"footer","module-style":"basic"}}],"attributes":{"tagid":"","class":"footer","full-width":"0","extend":"","headline":"","desc":"","background":"rgb(51, 51, 51)","color":"rgba(255, 255, 255, 0.65)"}},{"id":"14ed8c424174621","type":"section","children":[{"blockid":"14ed8c4d1fc7728","title":"Copyright","type":"system","widget":"widget-copyright","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-10","extend":"","background":"rgba(0, 0, 0, 0)","color":"rgba(255, 255, 255, 0.5)"},"options":{"copyright":"Copyright © %now% VTEM. All Rights Reserved."}},{"blockid":"14ed8c5108e2398","title":"To top","type":"system","widget":"widget-totop","content":{},"attributes":{"tagid":"","class":"","animation":"","hidden-on":null,"grid":"col-md-2","extend":""},"options":{}}],"attributes":{"tagid":"","class":"copyright","full-width":"0","extend":"","headline":"","desc":"","background":"rgb(51, 51, 51)","color":"rgba(255, 255, 255, 0.65)"}}],"attributes":{"tagid":"vtem","class":"site-body","extend":"","responsive":"1","layoutmode":"full","layoutwidth":"1170px","font_family":"Arial, Helvetica, sans-serif","font_size":"14px"}}' filter="raw"/>
+			</fieldset>
+			<!-- //////// END LAYOUT //////////////////////////// -->
+		</fields>
+	</config>
+</extension>

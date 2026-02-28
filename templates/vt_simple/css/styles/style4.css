@@ -1,0 +1,61 @@
+#comment-form .btn.btn-primary:hover,.Our_pledge ul.info li h4,
+.vtemtabs-item h4 a:hover,h4 a:hover,.fa-angle-double-right, a:hover .fa-angle-double-right,
+.pagination > li > a,.pagination > li > a:hover,
+.blog h2 a:hover, a:hover, a:focus,a, 
+.mailing_list .our_mailing .icon_mail, ul.latestnews li a:hover,
+ul.menu li a:hover, ul.weblinks li a:hover, ul.menu li.active.current a, 
+ul.menu li.parent a:hover, ul.menu li.active li.active.curren a,
+.login ul.login li a:hover,.btn-link,.btn-link:hover,
+.page-header h2 a, .phone_call > div.socical > a:hover,
+.main-mega-menu li.mega-hover > .sub-container.mega > a, 
+.main-mega-menu li.mega-hover > .sub-container.mega > a:hover, 
+.menuvtem_nav > li.active > .sub-menu > li.active > a, 
+.active.parent > .sub-container > li.active > a,
+.main-mega-menu .sub-container li.active > a,
+.main-mega-menu li.mega-hover > .sub-container.mega > a, 
+.main-mega-menu li.mega-hover > .sub-container.mega > a:hover, 
+.main-mega-menu .sub-container li.mega-hover > a,
+.main-mega-menu .sub-container li.current.active > a,
+.active.parent .sub-container li.active > a,
+.menuvtem_nav .current.active > a,
+.menuvtem_nav > .active > a, .menuvtem_nav > .active > a:hover, 
+.menuvtem_nav > .active > a:focus{ color:#1db7b1;}
+
+.mega-menu-wrapper ul.main-mega-menu li.current > a,
+.main-mega-menu .sub-container li.mega-hover > a, .main-mega-menu .sub-container li.current.active > a, 
+.active.parent .sub-container li.active > a, 
+.menuvtem_nav .current.active > a, 
+.main-mega-menu li.mega-hover > a, 
+.main-mega-menu li.mega-hover > a:hover, 
+.menuvtem_nav > .active > a, 
+.menuvtem_nav > .active > a:hover, 
+.menuvtem_nav > .active > a:focus,
+.main-mega-menu li.mega-hover > a, 
+.main-mega-menu li.mega-hover > a:hover, 
+.menuvtem_nav .current.active > a,
+.menuvtem_nav > .active > a, 
+.menuvtem_nav > .active > a:hover, 
+.menuvtem_nav > .active > a:focus{background:url(menu_active_style4.png) center bottom no-repeat; color:#1db7b1;}
+
+.we_offer span > em , .we_offer strong > em {border-color: transparent  #1db7b1 transparent transparent;}
+.we_offer span:hover > em, .we_offer strong:hover > em {border-color: #1db7b1  #1db7b1 transparent transparent;}
+
+.main-mega-menu .sub-container li.mega-hover > a > .mega-menu-icon,
+.main-mega-menu .sub-container li.current.active > a > .mega-menu-icon,
+.active.parent .sub-container li.active > a > .mega-menu-icon,
+.main-mega-menu li .sub-container a:hover .mega-menu-icon,
+.main-mega-menu li .sub-container a:focus .mega-menu-icon {border-top-color: #1db7b1;  border-bottom-color: #1db7b1; color:#1db7b1;}
+
+.btn-primary,.vt_wrapper_feature,.Infor_farm > div:hover a.btn.btn-primary,
+#comment-form .btn.btn-primary:after,
+.itemCommentsForm #submitCommentButton,
+.itemCommentsForm #submitCommentButton:hover{ background:#1db7b1 !important;}
+
+.Infor_farm > div:hover img{
+	box-shadow:0 10px 0 #1db7b1; 
+	-moz-box-shadow:0 10px 0 #1db7b1; 
+	-webkit-box-shadow:0 10px 0 #1db7b1;
+}
+.Infor_farm > div:hover h3{ background:url(bg_title_info_style4.png) center top no-repeat; color:#1db7b1;}
+
+.template-style4 #vt_logo{background:url(vt_logo_style4.png) left 0 no-repeat;}

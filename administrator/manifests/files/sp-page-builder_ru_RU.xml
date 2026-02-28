@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade" version="2.5">
+    <name>SP Page Builder Russian (Russia)</name>
+    <version>100</version>
+    <creationDate>2021-10-23</creationDate>
+    <author>Joomla! Translate</author>
+    <authorEmail>info@joomlatranslate.com</authorEmail>
+    <authorUrl>https://joomlatranslate.com</authorUrl>
+    <copyright>2021 - Joomla! Translate. All rights reserved!</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    
+	
+	
+    <fileset>
+		<files folder="backend" target="administrator/language/ru-RU">
+			<filename>ru-RU.com_sppagebuilder.ini</filename>
+			<filename>ru-RU.com_sppagebuilder.sys.ini</filename>
+			<filename>ru-RU.mod_sppagebuilder_admin_menu.ini</filename>
+			<filename>ru-RU.mod_sppagebuilder_admin_menu.sys.ini</filename>
+			<filename>ru-RU.mod_sppagebuilder_icons.ini</filename>
+			<filename>ru-RU.mod_sppagebuilder_icons.sys.ini</filename>
+		</files>
+		<files folder="frontend" target="language/ru-RU">
+			<filename>ru-RU.com_sppagebuilder.ini</filename>
+		</files>
+	</fileset>
+	
+</extension>

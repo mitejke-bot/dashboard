@@ -1,0 +1,20 @@
+/*######  Design by VTEM http://www.vtem.net All Rights Reserved  ###########*/
+/* Portrait tablet and down */
+@media (max-width: 991px) {
+	.oMenuStickOpen .nav.nav-canvas, .oMenuOverwrite{display:block !important;}
+	.main-vtem-menu,
+	.main-vtem-menu li{display:block; width:100% !important; margin:1px 0 !important;}
+	.main-vtem-menu ul,
+	.main-vtem-menu ul ul,
+	.oVertical > .main-vtem-menu ul{position:relative !important; width:100% !important; left:0 !important;}
+	.slideshow .box_skitter .prev_button,
+	.slideshow .box_skitter .next_button{display:none !important;}
+	/*///////K2 COMPONENT /////////////*/
+	.subCategoryContainer{width:100% !important;}
+}
+
+
+/* Landscape tablet and up */
+@media (min-width: 992px) {
+
+}
